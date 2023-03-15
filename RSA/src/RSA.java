@@ -6,6 +6,7 @@ import java.security.SecureRandom;
 @SuppressWarnings("ALL")
 public class RSA {
     public static void main(String[] args) throws IOException{
+        //void main conent
         SecureRandom Randomn = new SecureRandom();
         BigInteger p, q, n, phi, e, d, mes, chi, dechi;
         // Initialisation de p et q a travers  les valeurs aleatoires
